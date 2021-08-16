@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+*{margin: 0px; padding: 0px;}
+section{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+
+body {
+    width: 1300px;
+    margin: auto;
+    
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.continer {
+    width: 1200px;
+    margin: auto;
+    box-shadow: 1px 1px 29px 2px #999;
+}
+
+span#no1 {
+    background: #c5830a;
+    width: 25%;
+}
+
+.TopBar {
+    width: 100%;
+    height: 10px;
+    background: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span#no2 {
+    width: 25%;
+    background: aqua;
+}
+
+span#no3 {
+    width: 25%;
+    background: yellowgreen;
+}
+
+span#no4 {
+    width: 25%;
+}
+
+.MainImage img {
+    width: 100%;
+}
+
+.MainImage {
+    width: 33%;
+}
+
+
+
+
+.Headerwrapper {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    height: 85px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LogoHeader {
+    width: 36%;
+    overflow: hidden;
+}
+
+.LogoHeader img {
+    width: 170px;
+    display: block;
+    margin-left: 30px;
+    height: 60px;
+    margin: auto;
+}
+
+.HeaderItem {
+    width: 45%;
+    text-align: right;
+}
+
+ul.H_menu {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+ul.H_menu li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+ul.H_menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    transition: .3s;
+    border-top: 2px solid transparent;
+}
+
+ul.H_menu li a:hover {
+    color: red;
+    border-top: 2px solid red;
+}
+
+
+
+
+
+.HeaderMAin {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 0px;
+    background: #020238;
+    color: white;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.MainInfo {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+
+.MainInfo i {
+    font-size: 50px;
+    color: #ffbc00;
+    display: block;
+}
+
+.MainInfo span {
+    font-size: 12px;
+    margin-left: 25px;
+    font-weight: 800;
+    color: #30c50a;
+    margin-bottom: 0px;
+    display: block;
+}
+
+.MainInfo h1 {
+    font-size: 50px;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+
+.MainInfo p {
+    color: #999;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.MainInfo button {
+    width: 150px;
+    padding: 13px;
+    background: #e4af1a;
+    border: 2px solid transparent;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+
+
+.MainInfo button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.MainInfo button:hover {
+    background: #777;
+    border: 2px solid white;
+}
+
+
+
+section#Problempart {
+    background: linear-gradient(to bottom, #f1488eda, #f1488eda),    url(Image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.ProblemWrapper {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+.ProblemWrapper h1 {
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.ProblemBox {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.SingleProblem {
+    width: 31%;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+
+.SingleImage {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.P-Icon {
+    width: 50%;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    background: white;
+    color: #555;
+    font-size: 50px;
+}
+
+.P-Image {
+    width: 50%;
+}
+
+.SingleProblem:last-child {
+    margin-right: 0px;
+}
+
+.P-Info {
+    width: 100%;
+    text-align: left;
+    padding: 30px 0px;
+    margin-top: 30px;
+}
+
+.P-Info p {
+    font-size: 14px;
+    width: 200px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #d8d8d8;
+}
+
+.P-Info h3 {
+    font-size: 27px;
+}
+
+
+
+
+
+
+
+
+section#SolutionPart {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Solu_wrapper {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.Solu_wrapper h1 {
+    font-size: 50px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.Solu_wrapper p {
+    color: #777;
+    width: 63%;
+    margin: auto;
+    margin-bottom: 51px;
+}
+p b {
+    display: block;
+    color: #ff5200;
+    margin-bottom: 5px;
+}
+
+.Solu-Box {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.SingleSolution {
+    width: 30%;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.SingleSolution i {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 100%;
+    margin-top: -55px;
+    border: 3px solid white;
+}
+
+.SingleSolution h1 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.1;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 12px;
+}
+
+.SingleSolution h3 {
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #444;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+section.M-Size {
+    width: 100%;
+    background: #f6f6f6;
+    overflow: hidden;
+}
+
+.MarketsizeWrapper {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.MarketsizeWrapper h1 {
+    color: #fb2c2c;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 61px;
+}
+
+.MarketBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Single-market {
+    width: 30%;
+    overflow: hidden;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 1px 1px 10px 2px #999;
+    padding: 2px;
+}
+
+.Single-market h3 {
+    padding: 20px 30px;
+    color: #444;
+    border-bottom: 1px solid #777;
+}
+
+.Single-market h3 i {
+    color: #0cb37b;
+    margin-right: 5px;
+}
+
+.Single-market img {
+    width: 100%;
+    height: 160px;
+    border-bottom: 1px solid #777;
+    margin-bottom: 10px;
+}
+
+.Single-market p {
+    margin-left: 11px;
+    margin-right: 10px;
+    color: #8a8989;
+    font-size: 15px;
+    margin-bottom: 30px;
+    height: 90px;
+}
+
+.Single-market a {
+    width: 85px;
+    display: inline-block;
+    text-decoration: none;
+    background: #ff5200;
+    padding: 13px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    transition: .3s;
+}
+
+.Single-market a:hover {
+    background: #777;
+}
+
+.Single-market h1 {
+    color: red;
+    margin-bottom: 19px;
+}
+
+.SingleSolution:nth-child(3) {background: orange;}
+
+.SingleSolution:nth-child(1) {
+    background: #f1488e;
+}
+
+.SingleSolution:nth-child(2) {
+    background: aquamarine;
+}
+
+.SingleSolution p {
+    color: white;
+}
+
+.SingleSolution:nth-child(1) i {
+    background: #f1488e;
+}
+
+.SingleSolution:nth-child(2) i {
+    background: aquamarine;
+}
+
+.SingleSolution:nth-child(3) i {
+    background: orange;
+}
+
+
+
+
+
+
+
+
+
+section.Business.Details {
+    width: 100%;
+    overflow: hidden;
+}
+
+.DetailsWrapper {
+    width: 85%;
+    margin: auto;
+}
+
+.DetailsWrapper h1 {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.D-BOX {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RightDetails {width: 228px;margin-right: 25px;}
+
+.DetailsWrapper button {
+    width: 220px;
+    padding: 17px;
+    background: #ffbc00;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    transition: .3s;
+}
+
+.DetailsWrapper button a {
+    color: navy;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.DetailsWrapper button:hover {
+    background: #777;
+    border: 2px solid #ffbc00;
+}
+
+.DetailsWrapper button:hover a {
+    color: #ffbc00;
+}
+
+
+
+
+
+
+
+
+section.Advantage {
+    background: aliceblue;
+    overflow: hidden;
+}
+
+.AdvantageWrapper {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.AdvantageWrapper h1 {
+    font-size: 50px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.Line {
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -30px;
+    margin-bottom: 80px;
+}
+
+.AdvanceBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.A-Card {
+    width: 45%;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.A-Card i {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: crimson;
+}
+
+.A-Card h2 {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.A-Card p {
+    font-size: 19px;
+    color: #777;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+footer {
+    width: 100%;
+    background: #333;
+    color: white;
+}
+
+.FooterWrapper {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterIcon {
+    width: 260px;
+}
+
+ul.F-LIst {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul.F-LIst li {
+    list-style: none;
+    transition: .3s;
+}
+
+ul.F-LIst li a {
+    color: white;
+    transition: .3s;
+}
+
+ul.F-LIst li a:hover {
+    color: red;
+}
+
+
+
+
+.BookWrapper {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.BookWrapper h1 {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.BookBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.B-Card {
+    width: 46%;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.B-Card h3 {
+    padding: 10px;
+    background: burlywood;
+    color: white;
+}
+
+.B-Card p {
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.B-Card a {
+    width: 100px;
+    display: block;
+    margin: auto;
+    background: #ffbc00;
+    padding: 5px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.B-Card a:hover {
+    background: #777;
+    border: 2px solid red;
+    color: darkturquoise;
+}
+
+.B-Card img {
+    width: 100%;
+    border-bottom: 1px solid #999;
+    height: 200px;
+}
